@@ -5,7 +5,6 @@ sudo useradd -m Sajid
 sudo adduser Sajid sudo
 echo 'Sajidas:scarlet' | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
-
 sudo apt-get update
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
 sudo dpkg --install chrome-remote-desktop_current_amd64.deb
